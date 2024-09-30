@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% );
+    background-size: cover;
+}
+
+form{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 10px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    
+}
+
+.input{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.conf{
+    width: 40px;
+    height: 39px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #9729f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.conf:hover{
+    background-color: #781ec4;
+}
+
+.wrap{
+    text-align: center;
+}
+
+img{
+    margin-top: 35px;
+    width: 470px;
+    height: 470px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+.name{
+    margin-top: 35px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover{
+    color: #ffd83a;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.link, .date, .repositories{
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
